@@ -1,0 +1,30 @@
+$col1: lighten(black, 30%);
+
+body{
+  font-family: 'Avenir', sans-serif;
+  padding: 10vh 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 300;
+}
+
+h1{
+  font-weight: 300;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid $col1;
+  padding-bottom: .2rem;
+  &:hover, &:focus{
+    border-bottom-width: 2px;
+  }
+}
+
+.main{
+  padding: 2rem 0;
+}

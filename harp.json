@@ -1,0 +1,7 @@
+{
+  "globals": {
+    "title": "Harpster",
+    "description": "Harpster is a static-site boilerplate based on Harp, Gulp and Browser-sync",
+    "uri": "https://github.com/jinksi/harpster"
+  }
+}
