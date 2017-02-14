@@ -1,13 +1,35 @@
-# Harp, Gulp And BrowserSync
+# Harpster
 
-A ready-to-go Gulp and Harp set up that does auto css injection via BrowserSync.
+A static site boilerplate based on [Harp](https://github.com/sintaxi/harp).
 
-You can set it via Harp with:
+##### Install Harp
 
 ```console
-harp init src --boilerplate jinksi/harpster
+npm install -g harp
 ```
 
-Then, success.
+##### Init Harp with this boilerplate
+
+```console
+harp init my-project --boilerplate jinksi/harpster
+```
+
+##### Install dependencies
+
+```console
+npm install
+```
+
+##### Start Dev Server
+
+```console
+npm start
+```
+
+##### Build to `www` folder
+
+```console
+npm run build
+```
 
 A fork of [superhighfives/harp-gulp-browsersync-boilerplate](https://github.com/superhighfives/harp-gulp-browsersync-boilerplate)
